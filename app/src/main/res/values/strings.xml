@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">SoulScroll</string>
+    <string name="login">Login</string>
+
+    //signUp
+    <string name="Sign_Up" />
+    <string name="Events" />
+    <string name="submit">Submit</string>
+    <string name="alreadyhaveaccount">alreadyHaveAccount?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+
+    //onboarding_screen_1
+    <string name="let_s_get_started_in_this_journey">Let\'s get started in this journey</string>
+    <string name="soulscroll_will_help_you_organize_your_day_and_keep_track_of_your_life_journey">SoulScroll will help you organize your day and keep track of your life journey..</string>
+
+    //onboarding_screen_2
+    <string name="soulscroll">SoulScroll</string>
+    <string name="capture_your_thoughts_unveil_your_journey">Capture Your Thoughts, Unveil Your Journey...!</string>
+
+    //login
+    <string name="soul_scroll">SoulScroll</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="social_login">Social Login</string>
+
+    //Home
+    <string name="hi_dulakshi">Hi Dulakshi</string>
+    <string name="your_secrets_your_sanctuary">Your Secrets, Your Sanctuary...!</string>
+    <string name="my_notes">My Notes</string>
+    <string name="diary">Diary</string>
+    <string name="special_events">Special Events</string>
+    <string name="every_moment_every_memory_safely_captured">Every Moment, Every Memory, Safely Captured.</string>
+    <string name="try_it_now">Try it now</string>
+
+    //profile
+    <string name="my_profile">My Profile</string>
+    <string name="profile_name">Name:</string>
+    <string name="dulakshi">Dulakshi</string>
+    <string name="my_email">Email:</string>
+    <string name="dulakshi_gmail_com">dulakshi@gmail.com</string>
+    <string name="my_username">Username:</string>
+    <string name="dula2002">dula2002</string>
+    <string name="my_password">Password:</string>
+    <string name="passWord">............</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    //edit_profile
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_name">Name:</string>
+    <string name="edit1">edit</string>
+    <string name="edit_email">Email:</string>
+    <string name="edit2">edit</string>
+    <string name="edit_username">Username:</string>
+    <string name="edit3">edit</string>
+    <string name="edit_password">Password:</string>
+    <string name="change">change</string>
+    <string name="save">Save</string>
+
+    //Diary
+    <string name="my_diary">My Diary</string>
+    <string name="_2024_03_01">2024/03/01</string>
+    <string name="i_do_my_exams_well">I do my exams well.</string>
+    <string name="_2024_03_02">2024/03/02</string>
+    <string name="to_day_i_went_my_friends_birthday_party">To day i went my friends birthday party.</string>
+    <string name="_2024_03_03">2024/03/03</string>
+    <string name="i_went_university_to_day">I went university to day.</string>
+    <string name="_2024_03_04">2024/03/04</string>
+    <string name="i_meet_my_freinds_today">I meet my freinds today.</string>
+    <string name="_2024_03_05">2024/03/05</string>
+    <string name="i_do_my_assignments">I do my assignments.</string>
+    <string name="_2024_03_06">2024/03/06</string>
+    <string name="today_is_my_brother_s_birthday">Today is my brother\'s birthday.</string>
+    <string name="_2024_03_07">2024/03/07</string>
+    <string name="i_went_home_and_i_visit_my_grand_parents">I went home and I visit my grand parents.</string>
+    <string name="_2024_03_08">2024/03/08</string>
+    <string name="i_went_a_trip_to_kegalle_today">I went a trip to kegalle today.</string>
+    <string name="_2024_03_09">2024/03/09</string>
+    <string name="i_spent_time_home_with_my_family_members">I spent time home with my family members.</string>
+
+
+    //notes_page
+    <string name="my_notes2">My Notes</string>
+    <string name="search">search</string>
+    <string name="exam_time_table">Exam Time Table</string>
+    <string name="university_works">University Works</string>
+    <string name="assignments">Assignments</string>
+    <string name="add_notes">add notes</string>
+
+    //Special_events
+    <string name="special_events1">Special Events</string>
+    <string name="birthday_party_2024_06_13"><![CDATA[BirthDay Party --> 2024/06/13]]></string>
+    <string name="exam_start_date_2024_05_03"><![CDATA[Exam Start Date --> 2024/05/03]]></string>
+    <string name="brother_s_wedding_day_2024_08_12"><![CDATA[Brother\'s Wedding Day --> 2024/08/12]]></string>
+    <string name="add_events">Add Events</string>
+
+    //welcome_screen
+    <string name="welcome_to">Welcome To</string>
+    <string name="welcome_soulscroll">SoulScroll</string>
+    <string name="log_in">login</string>
+
+</resources>

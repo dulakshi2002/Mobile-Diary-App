@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_background"
+    tools:context=".ui.theme.dairy_1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="414dp"
+        android:layout_height="213dp"
+        android:background="@drawable/top_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/backbtn3"
+            android:layout_width="59dp"
+            android:layout_height="47dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="283dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="40dp"
+            android:drawableEnd="@android:drawable/ic_dialog_dialer"
+            android:fontFamily="serif"
+            android:text="@string/my_diary"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.394"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.496"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="415dp"
+        android:layout_height="671dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.99">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="43dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="2"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/_2024_03_01"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    tools:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="159dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="2"
+                    android:drawableEnd="@android:drawable/ic_menu_edit"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/i_do_my_exams_well"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    tools:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="43dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="2"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/_2024_03_02"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    tools:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="159dp"
+                    android:layout_height="53dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:drawableEnd="@android:drawable/ic_menu_edit"
+                    android:layout_weight="2"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/to_day_i_went_my_friends_birthday_party"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    tools:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_03"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/i_went_university_to_day"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp" />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_04"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/i_meet_my_freinds_today"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp" />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_05"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/i_do_my_assignments"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp" />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_06"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/today_is_my_brother_s_birthday"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp" />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_07"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/i_went_home_and_i_visit_my_grand_parents"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp" />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_08"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/i_went_a_trip_to_kegalle_today"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp" />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="43dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/_2024_03_09"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="159dp"
+                android:layout_height="53dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:drawableEnd="@android:drawable/ic_menu_edit"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/i_spent_time_home_with_my_family_members"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                tools:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
